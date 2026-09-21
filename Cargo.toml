@@ -1,0 +1,9 @@
+[package]
+name = "rfi"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+create-type = ["cdylib", "rlib"]
+
+[dependencies]
